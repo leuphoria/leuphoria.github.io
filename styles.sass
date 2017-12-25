@@ -1,4 +1,6 @@
 html, body
+  padding: 0
+  margin: 0
   background-image: url(./bg.jpg)
   background-attachment: fixed
   background-position: center
@@ -9,7 +11,6 @@ html, body
 .links-list
   display: block
   width: 100%
-  max-width: 300px
   padding: 20px 0
   margin: 0 auto
   list-style-type: none
@@ -22,8 +23,9 @@ html, body
 
     &--inline
       display: flex
+      max-width: 420px
+      margin: 0 auto
       flex-flow: row wrap
-      align-items: center
       justify-content: space-between
 
     &:last-child
@@ -32,6 +34,7 @@ html, body
 .social-link
   display: inline-flex
   width: 100%
+  max-width: 420px
   padding: 30px 30px
   border-radius: 15px
   box-sizing: border-box
@@ -56,7 +59,6 @@ html, body
 
   &--inline
     width: auto
-    min-width: 0
     padding: 15px
 
   &:hover
