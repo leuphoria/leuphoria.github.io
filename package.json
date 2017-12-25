@@ -1,0 +1,19 @@
+{
+  "name": "leuphoria",
+  "version": "0.1.0",
+  "description": "Elena Euphoria website",
+  "main": "index.html",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leuphoria/leuphoria.github.io.git"
+  },
+  "author": "Stanislav Sergeev <stas.webdev@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/leuphoria/leuphoria.github.io/issues"
+  },
+  "homepage": "https://github.com/leuphoria/leuphoria.github.io#readme"
+}
